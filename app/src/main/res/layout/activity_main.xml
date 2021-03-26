@@ -40,5 +40,18 @@
         android:onClick="Add"
         android:text="歸零"
         android:textSize="30sp" />
+    <Button
+        android:id="@+id/btnhappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Add"
+        android:text="樂透"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="483dp"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/image" />
 
 </LinearLayout>
